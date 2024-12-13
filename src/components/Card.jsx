@@ -39,7 +39,7 @@ const Card = ({ meal }) => {
         <span
           className={
             isActive
-              ? "absolute top-4 right-5 text-pink-400 cursor-pointer hover:scale-110 transform transition duration-300 bg-gray-200 p-2 rounded-full shadow hover:bg-pink-200"
+              ? "absolute top-4.5 right-5 text-pink-400 cursor-pointer hover:scale-110 transform transition duration-300 bg-gray-200 p-2 rounded-full shadow hover:bg-pink-200"
               : "flex-none"
           }
           onClick={() => setIsActive(false)}
